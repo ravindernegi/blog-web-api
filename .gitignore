@@ -1,0 +1,11 @@
+.DS_Store
+# package directories
+node_modules
+
+# Environment Files
+.env
+*.zip
+package-lock.json
+yar
+yarn.lock
+/uploads

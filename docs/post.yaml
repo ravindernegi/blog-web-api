@@ -1,0 +1,56 @@
+paths:
+  /posts:
+    get:
+      tags:
+      - "posts"
+      summary: "Gell all posts"
+      description: "This can only be done by the logged in posts."
+      operationId: "getPosts"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "page"
+        in: "query"
+        description: "Access items page wise"
+        type: "string"
+      - name: "limit"
+        in: "query"
+        description: "How many items want to see on each page"
+        type: "string"
+      - name: "search"
+        in: "query"
+        description: "Search Keyword"
+        type: "string"
+      responses:
+        200:
+          description: "successful"
+        422:
+          description: "Unprocessable Entity"
+        403:
+          description: "Forbidden"
+        500:
+          description: "Internal Server Error"
+  /posts/{id}:
+    get:
+      tags:
+      - "posts"
+      summary: "Find post by ID"
+      description: "This can only be done by the logged in posts."
+      operationId: "getUserById"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "ID of auth to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful"
+        422:
+          description: "Unprocessable Entity"
+        403:
+          description: "Forbidden"
+        500:
+          description: "Internal Server Error"
