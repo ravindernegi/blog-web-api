@@ -1,34 +1,41 @@
+## Built Blog API with Node and Express Js
 
-## System Requirement 
+### Tech Stacks: 👇
 
-* [Nodejs] [http://nodejs.org]
-* [Mongodb] [http://mongodb.com]
+- Nodejs
+- Express Js
+- Mongo DB
+- Swagger for Api Document
 
-
-## Setup
-
-make a clone of this repo after that you need run following commands.
+### Installation 👇
 
 ```bash
 npm install
-
+# or
+yarn install
 ```
 
-create a `.env` from `.env.example`  
+### Run Project 👇
 
-fill the values as per environment info.
+First, run the server:
 
-
-
-## Run Application
-On Local System
 ```bash
-npm run dev
-
+npm start
+# or
+yarn start
 ```
 
-On Server
-```bash
-npm run start
+### Tutorials on Youtube
 
-```
+- **Learn ReactJs Full Course**
+
+[![Learn ReactJs](https://img.youtube.com/vi/wL8k4v8mutY/0.jpg)](https://www.youtube.com/playlist?list=PLIvjAQSG0vtwn_VuFiE9NubnKfQ0ymNjs)
+
+- **Learn Git Full Course**
+
+[![Learn Git and Github](https://img.youtube.com/vi/DnPy_o8LlTk/0.jpg)](https://www.youtube.com/playlist?list=PLIvjAQSG0vtyDkUfKcPcs-oeH7kU6OZQ4)
+
+### Author : Ravinder Negi
+
+👉 Website : https://ravindernegi.com
+👉 Youtube : https://www.youtube.com/c/totallyhindimeinjankari
